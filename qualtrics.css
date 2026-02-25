@@ -27,7 +27,7 @@
  *  */
 .Skin .QuestionText {
     line-height: 1.5em;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
 }
 /* increase height and roundness of progress bar */
 .Skin #ProgressBarFillContainer,
