@@ -52,7 +52,6 @@
 .Skin textarea {
     border: 2px solid #999;
 }
-
 .Skin .MC .TextEntryBox,
 .Skin .TE .ESTB .InputText,
 .Skin .TE .FORM .InputText,
@@ -63,7 +62,6 @@
 .Skin input.TextEntryBox {
     min-height: 45px;
 }
-
 /* even out multiple choice rectangle padding */
 .Skin label.MultipleAnswer,
 .Skin label.SingleAnswer {
@@ -112,7 +110,10 @@
     transition: background 0.3s;
     background-color: #6d97a9;
 }
-
+/* increase space between next button and Qualtrics tag */
+.Skin #PushStickyFooter{
+    margin-top:50px;
+}
 /* ------MOBILE STYLES------*/
 
 @media (max-width: 770px) {
