@@ -33,7 +33,7 @@
 .Skin #ProgressBarFillContainer,
 .Skin .ProgressBarFill,
 .Skin .ProgressBarFillContainer {
-    height: 80px;
+    height: 15px;
     border-radius: 10px;
 }
 /* format text input boxes */
