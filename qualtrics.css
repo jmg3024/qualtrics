@@ -26,7 +26,7 @@
  * reduce space between each Q and its response options
  *  */
 .Skin .QuestionText {
-    line-height: 1.4em;
+    line-height: 1.5em;
     padding-bottom: 5px;
 }
 /* increase height and roundness of progress bar */
@@ -116,6 +116,10 @@
 /* ------MOBILE STYLES------*/
 
 @media (max-width: 770px) {
+   /* reduce space beneath blue header */
+    .Skin #LogoContainer{
+        margin-bottom:18px;
+    }
     /* increase space between progress bar and header bar */
     .Skin #ProgressBar {
         margin-top: 0 !important;
@@ -126,10 +130,18 @@
     }
     /* reduce space between Qs */
     .Skin .QuestionText {
-        padding: 0 20px 2px 20px;
+        padding: 0 20px 2px 20px !important;
     }
     /* increase font size of Q text */
     .Skin .QuestionBody {
         font-size: 14px;
+        padding-bottom:15px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* increase padding for logo */
+    .Skin #LogoContainer{
+        padding-left:15px;
     }
 }
