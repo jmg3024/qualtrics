@@ -1,0 +1,135 @@
+/* increase distance btwn progress bar and header bar*/
+.Skin #ProgressBar {
+    margin-top: -25px;
+    margin-bottom: 0;
+}
+/* format language selection dropdown */
+.Skin select {
+    border: 1px solid #d2d2d2;
+    padding: 10px;
+}
+.Skin .LanguageSelectorContainer {
+    margin: 0 20px 20px 0;
+}
+/* decrease space between CGIR logo and start of consent copy */
+#QID531 {
+    padding-bottom: 0;
+}
+#QID531 .QuestionBody {
+    padding-top: 10px;
+}
+/* reduce space beneath each Q */
+.Skin .QuestionOuter {
+    padding-bottom: 1vh;
+}
+/* control copy line-height
+ * reduce space between each Q and its response options
+ *  */
+.Skin .QuestionText {
+    line-height: 1.4em;
+    padding-bottom: 5px;
+}
+/* increase height and roundness of progress bar */
+.Skin #ProgressBarFillContainer,
+.Skin .ProgressBarFill,
+.Skin .ProgressBarFillContainer {
+    height: 15px;
+    border-radius: 10px;
+}
+/* format text input boxes */
+.Skin .MC .TextEntryBox,
+.Skin .TE .ESTB .InputText,
+.Skin .TE .FORM .InputText,
+.Skin .TE .FollowUp .InputText,
+.Skin .TE .ML .InputText,
+.Skin .TE .PW .InputText,
+.Skin .TE .SL .InputText,
+.Skin .TE textarea,
+.Skin input.TextEntryBox,
+.Skin input[type="password"],
+.Skin input[type="search"],
+.Skin input[type="text"],
+.Skin textarea {
+    border: 2px solid #999;
+}
+
+.Skin .MC .TextEntryBox,
+.Skin .TE .ESTB .InputText,
+.Skin .TE .FORM .InputText,
+.Skin .TE .FollowUp .InputText,
+.Skin .TE .ML .InputText,
+.Skin .TE .PW .InputText,
+.Skin .TE .SL .InputText,
+.Skin input.TextEntryBox {
+    min-height: 45px;
+}
+
+/* even out multiple choice rectangle padding */
+.Skin label.MultipleAnswer,
+.Skin label.SingleAnswer {
+    padding: 16px 15px 13px 15px;
+}
+/* increase size of copy in matrix Qs */
+.Skin .Matrix .QuestionBody,
+.Skin .SBS .QuestionBody {
+    font-size: 14px !important;
+}
+/* format next button */
+.Skin #Buttons #NextButton {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-appearance: none;
+    transition: background 0.3s;
+    background-color: #004968;
+}
+/* format back button */
+.Skin #Buttons #PreviousButton {
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-appearance: none;
+    transition: background 0.3s;
+    background-color: #6d97a9;
+}
+
+/* ------MOBILE STYLES------*/
+
+@media (max-width: 770px) {
+    /* increase space between progress bar and header bar */
+    .Skin #ProgressBar {
+        margin-top: 0 !important;
+    }
+    /* create 20px left/right margin */
+    .Skin .MC .QuestionBody ul.ChoiceStructure {
+        margin: 0 20px;
+    }
+    /* reduce space between Qs */
+    .Skin .QuestionText {
+        padding: 0 20px 2px 20px;
+    }
+    /* increase font size of Q text */
+    .Skin .QuestionBody {
+        font-size: 14px;
+    }
+}
