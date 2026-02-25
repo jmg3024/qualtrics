@@ -18,10 +18,15 @@
 #QID531 .QuestionBody {
     padding-top: 10px;
 }
+  
 /* reduce space beneath each Q */
 .Skin .QuestionOuter {
     padding-bottom: 1vh;
 }
+.Skin .QuestionBody {
+        font-size: 14px;
+        padding-bottom:15px;
+    }
 /* control copy line-height
  * reduce space between each Q and its response options
  *  */
@@ -60,7 +65,7 @@
 .Skin .TE .PW .InputText,
 .Skin .TE .SL .InputText,
 .Skin input.TextEntryBox {
-    min-height: 45px;
+    min-height: 42px;
 }
 /* even out multiple choice rectangle padding */
 .Skin label.MultipleAnswer,
