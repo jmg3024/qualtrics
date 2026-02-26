@@ -24,9 +24,9 @@
     padding-bottom: 1vh;
 }
 .Skin .QuestionBody {
-        font-size: 14px;
-        padding-bottom:15px;
-    }
+    font-size: 14px;
+    padding-bottom:10px;
+}
 /* control copy line-height
  * reduce space between each Q and its response options
  *  */
