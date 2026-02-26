@@ -25,7 +25,7 @@
 }
 .Skin .QuestionBody {
     font-size: 14px;
-    padding-bottom:10px;
+    padding-bottom:10px !important;
 }
 /* control copy line-height
  * reduce space between each Q and its response options
