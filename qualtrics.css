@@ -79,6 +79,7 @@
 }
 .JFEScope .Skin .q-matrix .table-cell{
     font-size:14px;
+    line-height:1.3em;
 }
 /* decrease space between fields in form field Qs */
 .Skin .TE .FORM table td {
