@@ -18,7 +18,10 @@
 #QID531 .QuestionBody {
     padding-top: 10px;
 }
-  
+/* increase line height for matrix response options */
+.Skin .LabelWrapper{
+    line-height:1.3em;
+}
 /* reduce space beneath each Q */
 .Skin .QuestionOuter {
     padding-bottom: 1vh;
@@ -160,8 +163,9 @@
 
 @media (max-width: 480px) {
     /* set font size to 16px for mobile */
-    .Skin .DB .QuestionText{
-        font-size:16px;
+    .Skin .DB .QuestionText,
+    .Skin .QuestionText{
+        font-size:16px !important;
     }
     /* increase padding for logo */
     .Skin #LogoContainer{
