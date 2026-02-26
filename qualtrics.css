@@ -157,9 +157,7 @@
     }
     /* respect width of text fields on mobile */
     input[type="text"], input[type="number"], textarea {
-        box-sizing: border-box !important;
-        min-width: unset !important;
-        max-width: unset !important;
+        width: revert !important;
     }
 }
 
