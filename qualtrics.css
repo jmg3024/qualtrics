@@ -130,7 +130,11 @@
 /* ------MOBILE STYLES------*/
 
 @media (max-width: 770px) {
-   /* reduce space beneath blue header */
+   /* set font size to 16 so iOS doesn't auto-zoom into inputs */
+    input, select, textarea {
+        font-size: 16px !important;
+    }
+    /* reduce space beneath blue header */
     .Skin #LogoContainer{
         margin-bottom:18px;
     }
