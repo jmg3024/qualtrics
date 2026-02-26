@@ -159,16 +159,19 @@
         font-size: 14px;
         padding-bottom:10px !important;
     }
+    .Skin #Buttons {
+        padding:10px 20px !important;
+    }
 }
 
 @media (max-width: 480px) {
     /* set font size to 16px for mobile */
     .Skin .DB .QuestionText,
-    .Skin .QuestionText{
+    .Skin .QuestionText {
         font-size:16px !important;
     }
     /* increase padding for logo */
-    .Skin #LogoContainer{
+    .Skin #LogoContainer {
         padding-left:15px;
     }
 }
