@@ -155,6 +155,12 @@
         font-size: 14px;
         padding-bottom:10px !important;
     }
+    /* respect width of text fields on mobile */
+    input[type="text"], input[type="number"], textarea {
+        box-sizing: border-box !important;
+        min-width: unset !important;
+        max-width: unset !important;
+    }
 }
 
 @media (max-width: 480px) {
