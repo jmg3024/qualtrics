@@ -146,10 +146,10 @@
     .Skin .QuestionText {
         padding: 0 20px 5px 20px !important;
     }
-    /* increase font size of Q text */
+    /* increase font size of Q text and reduce space between Qs */
     .Skin .QuestionBody {
         font-size: 14px;
-        padding-bottom:15px;
+        padding-bottom:10px !important;
     }
 }
 
