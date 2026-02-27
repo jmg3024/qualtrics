@@ -113,7 +113,8 @@
     border: none;
     color: #fff;
     font-size: 14px;
-    padding: 20px 30px;
+    padding: 10px 20px;
+    margin-top:15px !important;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -125,7 +126,7 @@
     text-decoration: none;
     -webkit-appearance: none;
     transition: background 0.3s;
-    background-color: #6d97a9;
+    background-color: #719aab;
 }
 /* increase space between next button and Qualtrics tag */
 .Skin #PushStickyFooter{
