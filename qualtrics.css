@@ -1,3 +1,12 @@
+/* In Qualtrics Survey, in the Look and Feel section, use the following settings:
+Font: Helvetica
+Foreground Contrast: High
+Question Spacing: Comfortable
+Question Text (px): 16
+Answer Text (px): 14
+External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
+*/
+
 /* increase distance btwn progress bar and header bar*/
 .Skin #ProgressBar {
     margin-top: -25px;
