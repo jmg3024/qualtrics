@@ -184,4 +184,8 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
     .Skin #LogoContainer {
         padding-left:15px;
     }
+    /* increase font size for statements in matrix Qs */
+    .JFEScope .Skin .q-matrix .table-cell{
+        font-size:15px !important;
+    }
 }
