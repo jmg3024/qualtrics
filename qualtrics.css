@@ -172,6 +172,10 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
     .Skin #Buttons {
         padding:10px 20px !important;
     }
+    /* increase size of combobox dropdown */
+    .select2-container .select2-selection--single{
+        height:45px;
+    }
 }
 
 @media (max-width: 480px) {
