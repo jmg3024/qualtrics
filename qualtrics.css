@@ -195,27 +195,29 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
         font-size: 15px !important;
     }
     /* change html table to card layout on mobile */
-    #consent-table,
-    #consent-table thead,
-    #consent-table tbody,
-    #consent-table th,
-    #consent-table td,
-    #consent-table tr {
-        display: block;
-    }
-    #consent-table thead {
-        display: none;
-    }
-    #consent-table td {
-        border: none;
-        position: relative;
-        padding-left: 50%;
-    }
-    #consent-table td::before {
-        content: attr(data-label);
-        font-weight: bold;
-        position: absolute;
-        left: 0;
-        padding-left: 10px;
+    @media (max-width: 480px) {
+        #consent-table,
+        #consent-table thead,
+        #consent-table tbody,
+        #consent-table th,
+        #consent-table td,
+        #consent-table tr {
+            display: block !important;
+        }
+        #consent-table thead {
+            display: none !important;
+        }
+        #consent-table td {
+            border: none !important;
+            position: relative !important;
+            padding-left: 50% !important;
+        }
+        #consent-table td::before {
+            content: attr(data-label);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            padding-left: 10px;
+        }
     }
 }
