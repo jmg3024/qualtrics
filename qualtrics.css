@@ -28,8 +28,8 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
     padding-top: 10px;
 }
 /* increase line height for matrix response options */
-.Skin .LabelWrapper{
-    line-height:1.3em;
+.Skin .LabelWrapper {
+    line-height: 1.3em;
 }
 /* reduce space beneath each Q */
 .Skin .QuestionOuter {
@@ -37,7 +37,7 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
 }
 .Skin .QuestionBody {
     font-size: 14px;
-    padding-bottom:10px !important;
+    padding-bottom: 10px !important;
 }
 /* control copy line-height
  * reduce space between each Q and its response options
@@ -89,14 +89,14 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
 .Skin .SBS .QuestionBody {
     font-size: 14px !important;
 }
-.JFEScope .Skin .q-matrix .table-cell{
-    font-size:14px;
-    line-height:1.3em;
+.JFEScope .Skin .q-matrix .table-cell {
+    font-size: 14px;
+    line-height: 1.3em;
 }
 /* decrease space between fields in form field Qs */
 .Skin .TE .FORM table td {
-    padding-top:5px;
-    padding-bottom:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 /* format next button */
 .Skin #Buttons #NextButton {
@@ -123,7 +123,7 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
     color: #fff;
     font-size: 14px;
     padding: 10px 20px;
-    margin-top:15px !important;
+    margin-top: 15px !important;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -138,19 +138,21 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
     background-color: #719aab;
 }
 /* increase space between next button and Qualtrics tag */
-.Skin #PushStickyFooter{
-    margin-top:50px;
+.Skin #PushStickyFooter {
+    margin-top: 50px;
 }
 /* ------MOBILE STYLES------*/
 
 @media (max-width: 770px) {
-   /* set font size to 16px so iOS doesn't auto-zoom into inputs */
-    input, select, textarea {
+    /* set font size to 16px so iOS doesn't auto-zoom into inputs */
+    input,
+    select,
+    textarea {
         font-size: 16px !important;
     }
     /* reduce space beneath blue header */
-    .Skin #LogoContainer{
-        margin-bottom:18px;
+    .Skin #LogoContainer {
+        margin-bottom: 18px;
     }
     /* increase space between progress bar and header bar */
     .Skin #ProgressBar {
@@ -167,14 +169,14 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
     /* increase font size of Q text and reduce space between Qs */
     .Skin .QuestionBody {
         font-size: 14px;
-        padding-bottom:10px !important;
+        padding-bottom: 10px !important;
     }
     .Skin #Buttons {
-        padding:10px 20px !important;
+        padding: 10px 20px !important;
     }
     /* increase size of combobox dropdown */
-    .select2-container .select2-selection--single{
-        height:45px;
+    .select2-container .select2-selection--single {
+        height: 45px;
     }
 }
 
@@ -182,14 +184,38 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
     /* set font size to 16px for mobile */
     .Skin .DB .QuestionText,
     .Skin .QuestionText {
-        font-size:16px !important;
+        font-size: 16px !important;
     }
     /* increase padding for logo */
     .Skin #LogoContainer {
-        padding-left:15px;
+        padding-left: 15px;
     }
     /* increase font size for statements in matrix Qs */
-    .JFEScope .Skin .q-matrix .table-cell{
-        font-size:15px !important;
+    .JFEScope .Skin .q-matrix .table-cell {
+        font-size: 15px !important;
+    }
+    /* change html table to card layout on mobile */
+    #consent-table,
+    #consent-table thead,
+    #consent-table tbody,
+    #consent-table th,
+    #consent-table td,
+    #consent-table tr {
+        display: block;
+    }
+    #consent-table thead {
+        display: none;
+    }
+    #consent-table td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+    #consent-table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        padding-left: 10px;
     }
 }
