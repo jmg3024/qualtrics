@@ -194,30 +194,4 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
     .JFEScope .Skin .q-matrix .table-cell {
         font-size: 15px !important;
     }
-    /* change html table to card layout on mobile */
-    @media (max-width: 480px) {
-        #consent-table,
-        #consent-table thead,
-        #consent-table tbody,
-        #consent-table th,
-        #consent-table td,
-        #consent-table tr {
-            display: block !important;
-        }
-        #consent-table thead {
-            display: none !important;
-        }
-        #consent-table td {
-            border: none !important;
-            position: relative !important;
-            padding-left: 50% !important;
-        }
-        #consent-table td::before {
-            content: attr(data-label);
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-            padding-left: 10px;
-        }
-    }
 }
