@@ -98,6 +98,10 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
     padding-top: 5px;
     padding-bottom: 5px;
 }
+/* decrease top padding on button container */
+.Skin #Buttons {
+    padding-top: 0 !important;
+}
 /* format next button */
 .Skin #Buttons #NextButton {
     border: none;
