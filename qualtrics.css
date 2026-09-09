@@ -141,6 +141,23 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
 .Skin #PushStickyFooter {
     margin-top: 50px;
 }
+/* create alpha-list styles */
+.alpha-list {
+    list-style: none;
+    counter-reset: alpha-list;
+    padding-left: 2em;
+}
+
+.alpha-list li {
+    counter-increment: alpha-list;
+    position: relative;
+}
+
+.alpha-list li::before {
+    content: counter(alpha-list, lower-alpha) ") ";
+    position: absolute;
+    left: -2em;
+}
 /* ------MOBILE STYLES------*/
 
 @media (max-width: 770px) {
