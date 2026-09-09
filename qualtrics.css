@@ -145,7 +145,7 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
 .alpha-list {
     list-style: none;
     counter-reset: alpha-list;
-    padding-left: 2em;
+    padding-left: 1.5em;
 }
 
 .alpha-list li {
@@ -156,7 +156,7 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
 .alpha-list li::before {
     content: counter(alpha-list, lower-alpha) ") ";
     position: absolute;
-    left: -2em;
+    left: -1.5em;
 }
 /* ------MOBILE STYLES------*/
 
