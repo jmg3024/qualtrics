@@ -20,13 +20,6 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
 .Skin .LanguageSelectorContainer {
     margin: 0 20px 20px 0;
 }
-/* decrease space between CGIR logo and start of consent copy */
-#QID531 {
-    padding-bottom: 0;
-}
-#QID531 .QuestionBody {
-    padding-top: 10px;
-}
 /* increase line height for matrix response options */
 .Skin .LabelWrapper {
     line-height: 1.3em;
@@ -83,6 +76,10 @@ External CSS: https://jmg3024.github.io/qualtrics/qualtrics.css
 .Skin label.MultipleAnswer,
 .Skin label.SingleAnswer {
     padding: 16px 15px 13px 15px;
+}
+/* make radio button circles grey */
+.Skin label.q-radio {
+    border: 2px solid #999 !important;
 }
 /* increase size of copy in matrix Qs */
 .Skin .Matrix .QuestionBody,
